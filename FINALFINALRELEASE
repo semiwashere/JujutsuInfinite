@@ -107,13 +107,6 @@ end)
 
 
 
-if Config.buff then
-    local event = game:GetService("TextChatService").TextChannels.RBXGeneral
-    event:SendAsync("/buff")
-end
-
-
-
 
 local player = game:GetService("Players").LocalPlayer
 local character = player.Character
