@@ -107,7 +107,7 @@ end)
 
 
 
-
+wait(10)
 local player = game:GetService("Players").LocalPlayer
 local character = player.Character
 character:PivotTo(workspace.Objects.Spawns.BossSpawn:GetPivot())
